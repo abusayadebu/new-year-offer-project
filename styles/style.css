@@ -212,6 +212,7 @@ font-weight: 700;
     height: 463px;
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
     gap: 70px;
     justify-content:center;
     align-items:center;
