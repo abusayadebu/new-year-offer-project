@@ -162,6 +162,43 @@ font-weight: 700;
 .rightside-content img{
     width: 350px;
     height: 465px;
+}
 
+/* New park container starts here */
+.new-park-container{
+    width: 1320px;
+    height: 482px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
 
+.new-park-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.allspan{
+    color: rgb(255, 0, 0);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.new-park-content p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+.btn-one{
+    margin-top: 20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 8px;
+    padding: 16px 32px 16px 32px;
 }
