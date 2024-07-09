@@ -47,3 +47,53 @@ line-height: 80px;
 letter-spacing: 0%;
 text-align: center;
 }
+
+ /* 65% section style starts here */
+ .second-container{
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 90px;
+
+ }
+
+ .second-container-content{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+
+.second-container-content h2{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+ }
+
+ .second-container-content p{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-top: 40px;
+ }
+
+.second-container-content{
+ color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+
+.second-container-img{
+    width: 802.9px;
+    height: 500px;
+}
+.second-container-img img{
+    width: 100%;
+    height: 100%;
+}
+/* 65% section style ends here */
+
