@@ -13,7 +13,7 @@
     margin: 0 auto;
     margin-top: 20px;
     background-color:rgba(0,0,0,0.5);
-    background-image: url("/images/Banner-Image.png");
+    background-image: url("../images/Banner-Image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,15 +54,13 @@ text-align: center;
     height: 806px;
     margin: 0 auto;
     margin-top: 90px;
-
  }
 
  .second-container-content{
     height: 300px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;  
  }
 
 .second-container-content h2{
@@ -106,7 +104,7 @@ font-weight: 700;
     margin: 0 auto;
     background-color: rgba(0,0,0,0.6);
     display: flex;
-    background-image: url("/images/Vectorrr.png");
+    background-image: url("../images/Vectorrr.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,6 +174,7 @@ font-weight: 700;
     justify-content: center;
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin-bottom: 90px;
 }
 
 .new-park-content{
