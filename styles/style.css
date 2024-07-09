@@ -166,7 +166,6 @@ font-weight: 700;
 .new-park-container{
     width: 1320px;
     height: 482px;
-    border: 1px solid red;
     margin: 0 auto;
     margin-top: 90px;
     display: flex;
@@ -200,4 +199,69 @@ font-weight: 700;
     background-color: rgb(255, 0, 0);
     border-radius: 8px;
     padding: 16px 32px 16px 32px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* best offer section start here */
+.best-offer-container{
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    gap: 70px;
+    justify-content:center;
+    align-items:center;
+}
+
+.best-offer-content-one{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content-one-p-one{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+
+.content-one h2{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+}
+.content-one-p-two{
+color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+}
+
+.best-offer-content-two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.best-offer-content-two h2{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+.best-offer-content-two p{
+color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+
+.best-offer-content-two img{
+width: 121.88px;
+height: 120px;
 }
